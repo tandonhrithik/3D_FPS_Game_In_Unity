@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6808046182393915301}
   - component: {fileID: 6808046182393915300}
   - component: {fileID: 6712050072329640418}
+  - component: {fileID: -8510777924671697411}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
@@ -62,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aa8557a7ca014c343b7ebc353254f8dd, type: 2}
+  - {fileID: 2100000, guid: 1afd53b48d4c7054f90ad5e6649f7279, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,3 +128,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-8510777924671697411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6808046182393915299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1720eab4234df544a03d6fa46f17996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  maxZ: 16
+  minZ: -16
